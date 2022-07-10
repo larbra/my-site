@@ -72,6 +72,16 @@ body {
   background-image: url("img/icon-email-alt.svg");
 }
 
+.header-vk {
+	padding-left: 30px;
+	background-image: url("img/icon-vk.svg");
+}
+
+.footer-vk {
+	padding-left: 30px;
+	background-image: url("img/icon-footer-vk.svg");
+}
+
 .header-phone,
 .footer-phone {
   padding-left: 21px;
@@ -243,6 +253,11 @@ body {
 
 .skill-html {
   background-image: url("img/icon-html.svg");
+}
+
+.skill-js {
+	background-image: url("img/icon-js.png");
+
 }
 
 .skill-css {
