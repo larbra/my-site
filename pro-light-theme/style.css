@@ -27,22 +27,49 @@ body {
   margin-right: 56px;
   padding-bottom: 10px;
   padding-top: 10px;
-  color: #8da2ed;
+  color: #00008b;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
 }
 
-.page-header a:focus,
-.page-header a:hover {
-  border-bottom: 1px solid #8da2ed;
-  filter: hue-rotate(50deg);
+.page-header a,
+.page-footer a {
+  position: relative;
+  margin-right: 64px;
+  padding-bottom: 10px;
+  padding-top: 9px;
+  font-weight: 500;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+  color: inherit;
 }
 
-.page-header a:active {
-  filter: hue-rotate(0);
-  opacity: 0.6;
+.page-header a:focus,
+.page-header a:hover,
+.page-footer a:focus,
+.page-footer a:hover {
+  color: #00008b;
 }
+
+.page-header a::after,
+.page-footer a::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #f00606;
+  transition: width 200ms;
+}
+
+.page-header a:hover::after,
+.page-footer a:hover::after {
+  width: 100%;
+}
+
 
 .header-email {
   padding-left: 30px;
@@ -75,7 +102,7 @@ body {
   line-height: 120px;
   letter-spacing: -2px;
   font-weight: 400;
-  color: #8da2ed;
+  color: #00008b;
 }
 
 .hero-image p {
@@ -98,7 +125,7 @@ body {
   font-size: 72px;
   line-height: 104px;
   font-weight: 400;
-  color: #8da2ed;
+  color: #00008b;
 }
 
 .intro .container {
@@ -273,7 +300,7 @@ body {
   margin: 4px;
   height: 24px;
   min-height: unset;
-  background-color: #8da2ed;
+  background-color: #00008b;
   background-image: url("img/progress-pattern.svg");
 }
 
@@ -413,7 +440,7 @@ body {
 
 .page-footer {
   padding: 40px 0;
-  background-color: #8da2ed;
+  background-color: #00008b;
 }
 
 .page-footer a {
@@ -445,4 +472,8 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.my-info {
+	color: #8000ff;
 }
