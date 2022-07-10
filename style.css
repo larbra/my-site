@@ -82,6 +82,16 @@ body {
 	background-image: url("img/icon-footer-vk.svg");
 }
 
+.header-tg {
+	padding-left: 30px;
+	background-image: url("img/icon-header-tg.svg");
+}
+
+.footer-tg {
+	padding-left: 30px;
+	background-image: url("img/icon-footer-tg.svg");
+}
+
 .header-phone,
 .footer-phone {
   padding-left: 21px;
