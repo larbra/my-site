@@ -92,6 +92,16 @@ body {
 	background-image: url("img/icon-footer-tg.svg");
 }
 
+.header-gh {
+	padding-left: 30px;
+	background-image: url("img/icons-header-github.svg");
+}
+
+.footer-gh {
+	padding-left: 30px;
+	background-image: url("img/icons-footer-github.svg");
+}
+
 .header-phone,
 .footer-phone {
   padding-left: 21px;
@@ -255,7 +265,7 @@ body {
   margin: 0 0 8px;
   padding-left: 46px;
   height: 36px;
-  font-size: 24px;
+  font-size: 24px;	
   letter-spacing: 1px;
   background-repeat: no-repeat;
   background-position: left;
