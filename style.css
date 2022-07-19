@@ -339,7 +339,8 @@ body {
 }
 
 .button {
-  margin: 0;
+	margin-bottom: 20px;
+
   padding: 8px 24px;
   display: inline-block;
   vertical-align: baseline;
